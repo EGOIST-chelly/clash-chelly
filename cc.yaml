@@ -5,7 +5,7 @@
 proxy-providers:
 
   Airport-1:
-    url: "https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=e819f711f56322a57a055bdde934fb85"
+    url: "机场链接"
     type: http
     interval: 43200
     override:
@@ -19,7 +19,7 @@ proxy-providers:
     proxy: 直连 
     
   Airport-2:
-    url: "https://dasho.pqjc.site/api/v1/pq/d0a1927cd326b334719b06ebfb2196cd"
+    url: "机场链接"
     type: http
     interval: 43200
     override:
