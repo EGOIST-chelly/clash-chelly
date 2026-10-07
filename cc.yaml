@@ -78,7 +78,7 @@ allow-lan: true
 mode: rule
 log-level: info
 
-external-controller: 0.0.0.0:9090
+external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-name: zashboard
 external-ui-url: https://gh-proxy.com/github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
@@ -142,7 +142,7 @@ proxy-groups:
     icon: "https://raw.githubusercontent.com/ifanrBook/ClashConfig/refs/heads/main/icon/network-pin.png"
     type: fallback
     interval: 180
-    lazy: false
+    lazy: true
     proxies:
       - 日本-手动
       - 日本-自动
@@ -173,7 +173,7 @@ proxy-groups:
     type: fallback
     hidden: true
     interval: 180
-    lazy: false
+    lazy: true
     proxies:
       - 日本-手动
       - 日本-自动
@@ -197,7 +197,7 @@ proxy-groups:
     type: fallback
     hidden: true
     interval: 180
-    lazy: false
+    lazy: true
     proxies:
       - 新加坡-手动
       - 新加坡-自动
@@ -221,7 +221,7 @@ proxy-groups:
     type: fallback
     hidden: true
     interval: 180
-    lazy: false
+    lazy: true
     proxies:
       - 美国-手动
       - 美国-自动
